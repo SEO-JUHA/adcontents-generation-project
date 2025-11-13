@@ -1,0 +1,13 @@
+{
+  "layouts": [
+    {
+      "id": "default_2x2",
+      "name": "Default 2x2",
+      "path": "cartoon/data/layouts/default_2x2.png",
+      "slots_mask": "cartoon/data/layouts/default_2x2_alpha.png",
+      "preview": "cartoon/data/layouts/default_2x2_preview.png",
+      "aspect": "1080x1080",
+      "controlnet_hint": "union/line"
+    }
+  ]
+}

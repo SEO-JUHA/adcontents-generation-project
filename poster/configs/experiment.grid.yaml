@@ -1,0 +1,53 @@
+# lock_recipe: true
+lock_ui: true
+
+# 각 항목이 카테시안 곱으로 조합됩니다.
+designs_per_layout: 10
+base_resolution: [1000, 1416]
+final_resolution: [2000, 2828]
+
+# 단일 조합만 사용
+sampler_name: ["dpmpp_2m"]
+scheduler: ["simple"]
+steps: [30]
+cfg: [6.0]
+
+# 레이아웃(ControlNet) 강도
+control_strength_defaults: [0.8]
+
+# IP-Adapter(로고 무드/색 전이) 강도
+ipadapter_weight: [0.6]
+
+# 시드 auto 이면 매 실행마다 난수
+seeds: ["auto"]
+
+# /home/uv-env/checkpoints/controlnet/controlnet-union-sdxl-1.0/diffusion_pytorch_model.safetensors
+
+controlnet_name: "controlnet-union-sdxl-1.0/diffusion_pytorch_model.safetensors"
+
+auto_erase:
+  enabled: true         # false면 비활성
+  engine: paddle        # 또는 tesseract
+  langs: ["en", "chi_sim", "chi_tra"]
+  # lang: en
+  min_conf: 0.5
+  boxes_pad: 5
+  mask_mode: boxes      # boxes | slots
+  method: telea         # ns 가능
+  radius: 5
+  tone: true
+  alpha: 0.22
+  write_debug: true
+
+
+rerank:
+  enabled: true
+  method: "gpt" # "gpt" | "local"
+  top_k: 3
+  model: "gpt-4o-mini"
+  max_images: 12
+
+local:
+  use_clip: true
+  use_ocr: true
+  use_palette: true

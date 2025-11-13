@@ -1,0 +1,64 @@
+{
+  "layouts": [
+    {
+      "id": "Frame_01",
+      "name": "Frame 01",
+      "path": "poster/data/layouts/Frame_01_line.png",
+      "slots_mask": "poster/data/layouts/Frame_01_alpha.png",
+      "preview": "poster/data/layouts/Frame_01_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    },
+    {
+      "id": "Frame_02",
+      "name": "Frame 02",
+      "path": "poster/data/layouts/Frame_02_line.png",
+      "slots_mask": "poster/data/layouts/Frame_02_alpha.png",
+      "preview": "poster/data/layouts/Frame_02_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    },
+    {
+      "id": "Frame_03",
+      "name": "Frame 03",
+      "path": "poster/data/layouts/Frame_03_line.png",
+      "slots_mask": "poster/data/layouts/Frame_03_alpha.png",
+      "preview": "poster/data/layouts/Frame_03_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    },
+    {
+      "id": "Frame_04",
+      "name": "Frame 04",
+      "path": "poster/data/layouts/Frame_04_line.png",
+      "slots_mask": "poster/data/layouts/Frame_04_alpha.png",
+      "preview": "poster/data/layouts/Frame_04_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    },
+    {
+      "id": "Frame_05",
+      "name": "Frame 05",
+      "path": "poster/data/layouts/Frame_05_line.png",
+      "slots_mask": "poster/data/layouts/Frame_05_alpha.png",
+      "preview": "poster/data/layouts/Frame_05_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    },
+    {
+      "id": "Frame_06",
+      "name": "Frame 06",
+      "path": "poster/data/layouts/Frame_06_line.png",
+      "slots_mask": "poster/data/layouts/Frame_06_alpha.png",
+      "preview": "poster/data/layouts/Frame_06_preview.png",
+      "aspect": "1000x1416",
+      "control_hint": "line",
+      "active": true
+    }
+  ]
+}

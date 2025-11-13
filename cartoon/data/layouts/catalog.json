@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "frame_01",
+      "name": "Frame 01",
+      "preview": "/poster/data/layouts/Frame_01_preview.png",
+      "source": "/poster/data/layouts/Frame_01_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    }
+  ]
+}

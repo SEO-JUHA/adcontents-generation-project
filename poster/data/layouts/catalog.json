@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "frame_01",
+      "name": "Frame 01",
+      "preview": "/poster/data/layouts/Frame_01_preview.png",
+      "source": "/poster/data/layouts/Frame_01_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    },
+    {
+      "id": "frame_02",
+      "name": "Frame 02",
+      "preview": "/poster/data/layouts/Frame_02_preview.jpg",
+      "source": "/poster/data/layouts/Frame_01_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    },
+    {
+      "id": "frame_03",
+      "name": "Frame 03",
+      "preview": "/poster/data/layouts/Frame_03_preview.png",
+      "source": "/poster/data/layouts/Frame_03_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    },
+    {
+      "id": "frame_04",
+      "name": "Frame 04",
+      "preview": "/poster/data/layouts/Frame_04_preview.png",
+      "source": "/poster/data/layouts/Frame_04_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    },
+    {
+      "id": "frame_05",
+      "name": "Frame 05",
+      "preview": "/poster/data/layouts/Frame_05_preview.jpg",
+      "source": "/poster/data/layouts/Frame_05_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    },
+    {
+      "id": "frame_06",
+      "name": "Frame 06",
+      "preview": "/poster/data/layouts/Frame_06_preview.png",
+      "source": "/poster/data/layouts/Frame_06_line.png",
+      "notes": "메뉴 영역 가이드 포함. 배경+레이아웃 전용(텍스트/로고는 생성하지 않음)."
+    }
+  ]
+}

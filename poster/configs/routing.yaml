@@ -1,0 +1,10 @@
+# ComfyUI 서버 연결 정보
+comfy_url: "http://127.0.0.1:8188"
+
+# 저장 감시 주기/타임아웃(초)
+poll_interval: 1.0
+timeout: 3000
+
+# 결과 이미지 저장 디렉토리(ComfyUI SaveImage 기본 경로와 일치)
+save_dir_hint: "/home/uv-env/poster/ComfyUI"
+input_dir: "/home/uv-env/poster/ComfyUI/input"

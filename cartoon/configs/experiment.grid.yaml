@@ -1,0 +1,33 @@
+lock_recipe: true
+lock_ui: true
+
+designs_per_layout: 4
+
+base_resolution: [1080, 1080]
+final_resolution: [2160, 2160]
+
+sampler_name: ["dpmpp_2m"]
+scheduler: ["simple"]
+steps: [30]
+cfg: [5.0]
+
+control_strength_defaults: [0.25]
+ipadapter_weight: [0.9]
+
+# seed = auto면 실행마다 바뀜
+seeds: ["123456"]
+
+controlnet_name: "controlnet-union-sdxl-1.0/diffusion_pytorch_model.safetensors"
+
+auto_erase:
+  enabled: true
+  engine: paddle #tesseract
+  langs: ["korean", "en"]
+  min_conf: 0.5
+  boxes_pad: 8
+  mask_mode: union
+  method: telea
+  radius: 5
+  tone: true
+  alpha: 0.22
+  write_debug: true

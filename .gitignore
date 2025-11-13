@@ -1,0 +1,79 @@
+# ===== 1) 비밀/환경 =====
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+
+# ===== 2) 가상환경/툴링 =====
+.venv/
+venv/
+env/
+pyvenv.cfg
+.uv/
+.python-version
+
+# ===== 3) 파이썬 캐시/빌드 =====
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+*.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+/bin/
+/lib64
+
+
+# ===== 4) 로그/캐시 =====
+logs/
+*.log
+.cache/
+cache/
+CACHEDIR.TAG
+
+# ===== 5) 대용량 산출물/데이터 =====
+outputs/
+storage/
+checkpoints/
+hf-cache/
+# 필요시 보존용 placeholder 허용
+!outputs/.gitkeep
+!storage/.gitkeep
+!checkpoints/.gitkeep
+!hf-cache/.gitkeep
+
+# ===== 6) ComfyUI(필요 시 전체 무시) =====
+poster/ComfyUI/*
+/poster/ComfyUI/
+
+# ===== 7) 공유 폴더(설계에 맞게 결정) =====
+share/
+shared/
+# 문서/가이드는 커밋하려면 예외 추가
+#!share/docs/**
+#!share/README.md
+
+# ===== 8) Node/프론트엔드 =====
+frontend/node_modules/
+frontend/.next/
+frontend/.cache/
+frontend/package-lock.json
+
+# ===== 9) 플랫폼/IDE 잡파일 =====
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ===== 10) 기타 실수 방지 =====
+# 루트 시스템 폴더명을 실수로 만들지 않는 이상 아래는 보통 불필요
+lib/
+lib64/
+include/
+etc/
+
+# ===== 11) 락 파일 일반화 =====
+*.lock
